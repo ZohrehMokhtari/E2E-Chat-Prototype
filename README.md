@@ -24,8 +24,7 @@ This approach protects user privacy even if the server is compromised.
 
 ## 📷 Demo
 
-> Below is a short demonstration of how the chat works.
->  
+> Below is a short demonstration of how the chat works.  
 > You can find the file in the project root as `usage.gif`.
 
 ![Chat usage demo](usage.gif)
@@ -33,6 +32,12 @@ This approach protects user privacy even if the server is compromised.
 - In this example, the message **"game"** is sent.
 - The server stores an **AES-encrypted** version in the database.
 - The browser decrypts it with a shared key and displays the readable text.
+
+## ▶️ Video Demo
+
+Click the image below to watch a short video demonstration on YouTube:
+
+[![Watch the demo](thumb.jpg)](https://www.youtube.com/watch?v=KyMAQ9fqtIU)
 
 ## 📦 Folder Structure
 
@@ -48,6 +53,7 @@ chat-app/
 ├── sql/
 │   └── chat_schema.sql      # Database schema (MySQL)
 ├── usage.gif                # Demo animation of usage
+├── thumb.jpg                # Custom thumbnail image for video demo
 └── README.md                # Project documentation
 ```
 
